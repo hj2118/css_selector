@@ -1,0 +1,60 @@
+* {
+  font-family: Verdana, sans-sans-serif;
+  font-size: 3vh;
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0px;
+  padding: 0px;
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+}
+
+.parent div {
+  display: flex;
+  justify-content: space-between;
+  background-color: skyblue;
+  padding: 10px;
+}
+
+/* .threeColumns p { */
+.threeColumns p {
+  display: flex;
+  flex-direction: row;
+  width: 32%;
+  align-items: center;
+}
+
+.parent > h1 {
+  text-align: center;
+  font-size: 4vmax;
+}
+
+.twoColumns > p {
+  display: flex;
+  flex-direction: row;
+  width: 49%;
+  align-items: center;
+}
+
+.parent a:nth-child(2) {
+  text-align: center;
+  font-size: 4vh;
+}
+
+a, a:visited, a:active {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.parent {
+  margin-bottom: 20px;
+}
